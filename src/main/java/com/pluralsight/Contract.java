@@ -8,6 +8,12 @@ public class Contract {
     private double TotalPrice;
     private double MonthlyPayment;
 
+    public Contract(String dateOfContract, String customerName, String customerEmail, Vehicle vehicleSold) {
+        DateOfContract = dateOfContract;
+        CustomerName = customerName;
+        CustomerEmail = customerEmail;
+        VehicleSold = vehicleSold;
+    }
 
     public String getDateOfContract() {
         return DateOfContract;
@@ -39,15 +45,12 @@ public class Contract {
 
     public void setVehicleSold(Vehicle vehicleSold) {
         VehicleSold = vehicleSold;
-    }
 
 
-    public Contract(String dateOfContract, String customerName, String customerEmail, Vehicle vehicleSold) {
-        DateOfContract = dateOfContract;
-        CustomerName = customerName;
-        CustomerEmail = customerEmail;
-        VehicleSold = vehicleSold;
+    }}
 
 
-    }
-}
+
+
+
+
