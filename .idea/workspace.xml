@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06a28046-9dc4-41d5-a454-7060ad2e422f" name="Changes" comment="Updated Constructors">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/LeaseContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/SalesContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6/Portfolio/src/main/java/com/pluralsight/finance/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6/Portfolio/src/main/java/com/pluralsight/finance/CreditCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/CarDealership.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
