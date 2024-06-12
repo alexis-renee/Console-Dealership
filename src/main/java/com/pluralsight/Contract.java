@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class Contract {
+public abstract class Contract {
     private String DateOfContract;
     private String CustomerName;
     private String CustomerEmail;
@@ -8,11 +8,13 @@ public class Contract {
     private double TotalPrice;
     private double MonthlyPayment;
 
+
     public Contract(String dateOfContract, String customerName, String customerEmail, Vehicle vehicleSold) {
-        DateOfContract = dateOfContract;
-        CustomerName = customerName;
-        CustomerEmail = customerEmail;
-        VehicleSold = vehicleSold;
+        this.DateOfContract = DateOfContract;
+        this.CustomerName = CustomerName;
+        this.CustomerEmail = CustomerEmail;
+        this.VehicleSold = VehicleSold;
+
     }
 
     public String getDateOfContract() {
@@ -46,9 +48,12 @@ public class Contract {
     public void setVehicleSold(Vehicle vehicleSold) {
         VehicleSold = vehicleSold;
 
+    }
 
-    }}
+    public abstract double getTotalPrice();
 
+    public abstract double getMonthlyPayment();
+}
 
 
 
